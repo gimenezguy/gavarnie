@@ -1976,6 +1976,27 @@ body {
     text-align: center;
   }
 }
+.cid-qQvp3hYdUN {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #f9f295;
+  background: linear-gradient(45deg, #f9f295, #000000);
+}
+@media (min-width: 992px) {
+  .cid-qQvp3hYdUN .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qQvp3hYdUN .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-qQvp3hYdUN .mbr-text {
+    text-align: center;
+  }
+}
 .cid-qN7SQzvIQq {
   padding-top: 60px;
   padding-bottom: 90px;
