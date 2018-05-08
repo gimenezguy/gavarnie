@@ -1572,14 +1572,16 @@ body {
 .cid-qMX8snbfLa .mbr-text P {
   color: #232323;
 }
-.cid-qNZGndqpk1 {
+.cid-qRuaNrunpG {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #b5f1ee;
 }
-.cid-qNZGndqpk1 .mbr-text {
+.cid-qRuaNrunpG .mbr-section-subtitle {
   color: #767676;
-  text-align: left;
+}
+.cid-qRuaNrunpG H2 {
+  color: #ffffff;
 }
 .cid-qNRsvekIkp {
   padding-top: 90px;
