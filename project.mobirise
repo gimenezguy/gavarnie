@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "gavarnie",
-    "currentPage": "le studio.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,8 +38,8 @@
       ]
     },
     "versionFirst": "4.6.6",
-    "uniqCompNum": 184,
-    "versionPublish": "4.7.2",
+    "uniqCompNum": 181,
+    "versionPublish": "4.9.6",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
@@ -51,7 +51,30 @@
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-39792018-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-39792018-1');\r\n</script>\r\n",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "sitemapSwitcher": "on",
-    "gdpr": ""
+    "gdpr": "",
+    "modified": "2018-05-09T07:27:06.553Z",
+    "siteFonts": [
+      {
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i",
+        "name": "Rubik",
+        "css": "'Rubik', sans-serif"
+      },
+      {
+        "css": "'Merriweather', serif",
+        "name": "Merriweather",
+        "url": "https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i"
+      },
+      {
+        "css": "'Dancing Script', handwriting",
+        "name": "Dancing Script",
+        "url": "https://fonts.googleapis.com/css?family=Dancing+Script:400,700"
+      },
+      {
+        "css": "'Courgette', handwriting",
+        "name": "Courgette",
+        "url": "https://fonts.googleapis.com/css?family=Courgette:400"
+      }
+    ]
   },
   "pages": {
     "index.html": {
@@ -92,6 +115,46 @@
           "_anchor": "header2-3l",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 5px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "center",
+              "color": "#cc2952"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text B": {
+              "color": "#cc2952"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"15\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n         \n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text=\"\"><b>IMPORTANT :</b><br>Notre studio qui est actuellement en vente a peut être trouvé son nouveau propriétaire.<br>En conséquence, durant cette période de transition, nous arrêtons les locations.&nbsp;</div>\n         \n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-4z",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "reuv76NlPW",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -300,7 +363,7 @@
       "settings": {
         "meta_descr": "présentation du studio en location à Gavarnie classé patrimoine mondial par l'UNESCO, plan, photos, calendrier de reservation, contrat",
         "title": "le studio",
-        "order": 3,
+        "order": 2,
         "footer_custom": "location gavarnie studio appartement hébergement particulier vacances montagne randonnées ski"
       },
       "components": [
@@ -315,6 +378,46 @@
           "_anchor": "content8-37",
           "_isUserblock": true,
           "_cid": "qNCldBrToV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 5px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "center",
+              "color": "#cc2952"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text B": {
+              "color": "#cc2952"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"15\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n         \n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text=\"\"><b>IMPORTANT :</b><br>Notre studio qui est actuellement en vente a peut être trouvé son nouveau propriétaire.<br>En conséquence, durant cette période de transition, nous arrêtons les locations.&nbsp;</div>\n         \n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-50",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "reuvxNy7B4",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -416,7 +519,7 @@
             }
           },
           "_name": "content3",
-          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#b5f1ee\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12 col-md-8\">\n                <div class=\"col-12 col-md-6 pr-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline>\n                 <iframe src=\"https://calendar.google.com/calendar/embed?title=r%C3%A9servation%20studio%20Gavarnie&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23ffcccc&amp;src=ufn13q81r8m7tmp2p35up0a1v0%40group.calendar.google.com&amp;color=%230228e5&amp;ctz=Europe%2FBrussels\" style=\"border:solid 1px #777\" width=\"300\" height=\"300\" frameborder=\"0\" scrolling=\"no\"></iframe> \n                </div>\n                <div class=\"col-12 col-md-6 pl-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-article data-app-selector=\".mbr-text\" data-multiline>\n                     Retrouvez ici les périodes d'occupation et les disponibilités de notre studio</div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#b5f1ee\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12 col-md-8\">\n                <div class=\"col-12 col-md-6 pr-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline>\n                     <iframe src=\"https://calendar.google.com/calendar/embed?src=ufn13q81r8m7tmp2p35up0a1v0%40group.calendar.google.com&ctz=Europe%2FBrussels\" style=\"border: 0\" width=\"300\" height=\"270\" frameborder=\"0\" scrolling=\"no\"></iframe>\n                </div>\n                <div class=\"col-12 col-md-6 pl-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-article data-app-selector=\".mbr-text\" data-multiline>\n                     Retrouvez ici les périodes d'occupation et les disponibilités de notre studio</div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qRx4EBYypx",
           "_anchor": "content3-4x",
           "_PHPplaceholders": [],
@@ -1447,7 +1550,7 @@
       "settings": {
         "meta_descr": "présentation du village de Gavarnie avec son majestueux cirque, situation géographique, son église et l'hôtel des voyageurs",
         "title": "Le village",
-        "order": 4,
+        "order": 3,
         "footer_custom": "location gavarnie studio appartement hébergement particulier vacances montagne randonnées ski"
       },
       "components": [
@@ -2755,7 +2858,7 @@
       "settings": {
         "meta_descr": "Descriptions de quelques randonnées aux alentour de Gavarnie. Paysages époustouflants. bréche de Roland, lac de bernatoire, le cirque de Gavarnie",
         "title": "Randonnées et promenades",
-        "order": 5,
+        "order": 4,
         "footer_custom": "location gavarnie studio appartement hébergement particulier vacances montagne randonnées ski"
       },
       "components": [
@@ -2956,7 +3059,7 @@
       "settings": {
         "meta_descr": "formulaire de contact",
         "title": "Formulaire de contact",
-        "order": 6,
+        "order": 5,
         "footer_custom": ""
       },
       "components": [
@@ -3108,7 +3211,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "mentions légales",
-        "order": 2,
+        "order": 1,
         "footer_custom": "",
         "html_before": "",
         "header_custom": ""
