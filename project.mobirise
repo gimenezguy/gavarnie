@@ -39,7 +39,7 @@
     },
     "versionFirst": "4.6.6",
     "uniqCompNum": 181,
-    "versionPublish": "4.9.6",
+    "versionPublish": "4.10.3",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
